@@ -2,8 +2,8 @@ body {
 	text-align: center;
 	padding: 25px;
 	font-family: "Arial" , Courier , monospace;
-	color: #fff;
-	background-color: #989898;
+	color: #2F4F4F;
+	background-color: #DCDCDC;
 }
 
 hr {
@@ -12,4 +12,12 @@ hr {
 
 canvas {
 	max-height: 500px;
+
+
+}
+
+#pieChart {
+
+	max-width:  1270px;
+	
 }

@@ -26,18 +26,18 @@
 new Chart(document.getElementById('lineChart'), {
   type: 'line',
   data: {
-    labels: ["1924", "1936", "1952", "1964", "1972", "1984", "1994", "2006", "2014"],
+    labels: ['1924', '1936', '1952', '1964', '1972', '1984', '1994', '2006', '2014'],
     datasets: [
 
       {
         label: "Male",
-        data: ["9", "13", "17", "5", "0", "4", "30", "21", "46"],
+        data: [9, 13, 17, 5, 0, 4, 30, 21, 46],
         fill: false,
         borderColor: '#4e79a7',
       },
 
       {
-        label: 'Female ',
+        label: 'Female',
         data: [0, 0, 0, 2, 1, 0, 10, 47, 44],
         fill: false,
         borderColor: '#e15759',
@@ -115,7 +115,7 @@ setTimeout(function () {
 
 
 // Chart 4
-new Chart(document.getElementById("pieChart"), {
+new Chart(document.getElementById('pieChart'), {
     type: 'pie',
     data: {
       labels: ['Male', 'Female'],

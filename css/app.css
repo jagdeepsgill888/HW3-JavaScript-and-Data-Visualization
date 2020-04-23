@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+	padding: 25px;
+	font-family: "Arial" , Courier , monospace;
+	color: #2d5986;
+	background-color: #DCDCDC;
+}
+
+hr {
+	margin: 50px 0;
+}
+
+canvas {
+	max-height: 500px;
+
+
+}
+
+#pieChart {
+
+	max-width:  1270px;
+	
+}
